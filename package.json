@@ -1,0 +1,17 @@
+{
+  "name": "claude-channel-slack",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "type": "module",
+  "private": true,
+  "bin": "./server.mjs",
+  "scripts": {
+    "start": "npm install --silent --no-audit --no-fund && node server.mjs"
+  },
+  "dependencies": {
+    "@slack/bolt": "^4.7.2",
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "proper-lockfile": "^4.1.2",
+    "zod": "^3.23.8"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "buzzie-ai",
+  "owner": {
+    "name": "Buzzie AI",
+    "url": "https://github.com/Buzzie-AI"
+  },
+  "plugins": [
+    {
+      "name": "slack",
+      "source": "./",
+      "description": "Slack channel for Claude Code — receive DMs, app mentions, and prefix-matched channel messages, and reply through your Slack workspace. Built on @slack/bolt Socket Mode.",
+      "version": "0.1.0",
+      "category": "channels",
+      "keywords": ["slack", "messaging", "channel", "mcp", "bolt"],
+      "homepage": "https://github.com/Buzzie-AI/slack-plugin",
+      "license": "Apache-2.0"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "slack": {
+      "command": "npm",
+      "args": ["start", "--silent", "--prefix", "${CLAUDE_PLUGIN_ROOT}"]
+    }
+  }
+}
